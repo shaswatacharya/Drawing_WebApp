@@ -57,7 +57,7 @@ saveBtn.addEventListener("click", () => {
     let data = canvas.toDataURL("imag/jpg")
     let a = document.createElement("a")
     a.href = data
-    a.download = "sketch.png"
+    a.download = "sketch.jpg"
     a.click()
 
 })
