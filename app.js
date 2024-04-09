@@ -21,6 +21,7 @@ var theInput = document.getElementById("favcolor");
 
 theInput.addEventListener("input", function(){
   theColor = theInput.value;
+  
   body.style.backgroundColor = theColor;
 }, false);
 
